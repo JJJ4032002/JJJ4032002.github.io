@@ -1,0 +1,228 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background: url(/Images/pexels-henry-&-co-1939485.jpg);
+
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#header {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px 5px 12px 5px;
+  justify-content: space-between;
+  align-items: center;
+  font-family: monospace;
+  font-weight: 500;
+  font-size: 20px;
+  position: fixed;
+  width: 100%;
+  background-color: gray;
+}
+
+#header-img {
+  height: 60px;
+  width: 60px;
+}
+#nav-bar #ulo .lip {
+  text-decoration: none;
+  display: inline-block;
+}
+#nav-bar #ulo .lip a {
+  text-decoration: none;
+  background-color: silver;
+  padding: 10px 15px;
+  margin-right: 10px;
+  border: 4px solid black;
+  border-radius: 50px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+#nav-bar #ulo .lip a:hover {
+  color: whitesmoke;
+  border: 4px solid white;
+  border-radius: 50px;
+}
+#form,
+#HE {
+  font-size: 25px;
+  font-family: monospace;
+  display: block;
+  text-align: center;
+}
+#email,
+#submit {
+  font-size: 20px;
+  margin-top: 8px;
+  padding: 5px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+#submit {
+  border: 2px solid black;
+  border-radius: 25px;
+}
+#submit:hover {
+  color: white;
+  border: 2px solid white;
+  background-color: gray;
+}
+#vid {
+  display: flex;
+  background-color: silver;
+  background-size: cover;
+  background-repeat: no-repeat;
+  justify-content: space-between;
+  align-items: center;
+  font-family: monospace;
+  font-size: 25px;
+}
+#video {
+  height: 100%;
+  width: 30%;
+}
+#hed {
+  padding-left: 50px;
+}
+
+#about {
+  padding: 25px;
+  text-align: center;
+  font-family: monospace;
+  background: silver;
+}
+#Ab {
+  font-size: 35px;
+}
+#uli {
+  list-style-position: inside;
+  font-size: 18px;
+}
+.container {
+  display: flex;
+
+  justify-content: space-evenly;
+  align-items: stretch;
+  align-content: stretch;
+  background-color: silver;
+  flex-wrap: wrap;
+}
+.inside {
+  background-color: grey;
+  margin: 10px;
+  min-height: 300px;
+  max-width: 400px;
+  flex: 2 0 auto;
+  text-align: center;
+  border: 4px solid black;
+  border-radius: 10px;
+  background-size: cover;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+.flid {
+  margin-top: 10px;
+  font-family: monospace;
+  font-size: 30px;
+}
+.flip {
+  margin-top: 20px;
+  font-family: monospace;
+  font-size: 17px;
+  padding: 20px;
+}
+#one:hover {
+  animation-name: bruh;
+  animation-duration: 0.6s;
+  animation-fill-mode: forwards;
+}
+#two:hover {
+  animation-name: bruh;
+  animation-duration: 0.6s;
+  animation-fill-mode: forwards;
+}
+#three:hover {
+  animation-name: bruh;
+  animation-duration: 0.6s;
+  animation-fill-mode: forwards;
+}
+#fot {
+  background-color: silver;
+  font-family: monospace;
+  font-size: 20px;
+  padding-left: 10px;
+}
+@media (max-width: 500px) {
+  #header {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+    justify-content: space-between;
+    align-items: center;
+    font-family: monospace;
+    font-weight: 500;
+    font-size: 20px;
+    position: fixed;
+    width: 98%;
+  }
+  #nav-bar {
+    margin-top: 17px;
+    font-size: 15px;
+    padding: 8px 10px;
+  }
+
+  #HE {
+    margin-top: 80px;
+  }
+  #vid {
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 15px;
+  }
+  #form {
+    font-size: 20px;
+  }
+  #Ab {
+    font-size: 25px;
+  }
+  #uli {
+    font-size: 14px;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: stretch;
+    background-color: silver;
+    flex-wrap: nowrap;
+  }
+  .inside {
+    background-color: grey;
+    margin: 10px;
+    height: 35vh;
+    width: 75vw;
+    flex: 2 1 auto;
+    text-align: center;
+    border: 4px solid black;
+    border-radius: 10px;
+    background-size: cover;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  }
+  .flid {
+    margin-top: 10px;
+    font-family: monospace;
+    font-size: 20px;
+  }
+  .flip {
+    margin-top: 20px;
+    font-family: monospace;
+    font-size: 15px;
+  }
+}
+@keyframes bruh {
+  100% {
+    max-width: 430px;
+  }
+}
